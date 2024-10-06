@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd198da-093b-4c22-a7b0-47b4fef0b0d2" name="Changes" comment="" />
+    <list default="true" id="cdd198da-093b-4c22-a7b0-47b4fef0b0d2" name="Changes" comment="Load balancer added">
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/client/OpenFeignOrdersClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/dto/OrderRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/dto/OrderRequestItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/client/OpenFeignInventoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/abhilash/ecommerce/inventory_service/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/contoller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/contoller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/abhilash/ecommerce/order_service/service/OrdersService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vsnm-Abhilash"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vsnm-Abhilash/Ecommerce.git",
+    "accountId": "4723e741-e707-4bb8-a10f-c4b7e255a0ec"
+  }
+}]]></component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -28,7 +54,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2n0ygzHPyIPMivuDfuBqi9IEyjk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,20 +68,25 @@
     "Application.InventoryServiceApplication.executor": "Run",
     "Application.OrderServiceApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace-intelliJ/Ecommerce",
+    "last_opened_file_path": "D:/workspace-intelliJ/Ecommerce/order-service/src/main/java/com/abhilash/ecommerce/order_service",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace-intelliJ\Ecommerce\order-service\src\main\java\com\abhilash\ecommerce\order_service" />
+      <recent name="D:\workspace-intelliJ\Ecommerce\inventory-service\src\main\java\com\abhilash\ecommerce\inventory_service\dto" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\v.s.n.m.abhilash\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cdd198da-093b-4c22-a7b0-47b4fef0b0d2" name="Changes" comment="" />
@@ -62,11 +95,22 @@
       <option name="presentableId" value="Default" />
       <updated>1728124402697</updated>
     </task>
+    <task id="LOCAL-00001" summary="Load balancer added">
+      <option name="closed" value="true" />
+      <created>1728223358833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728223358833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Load balancer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Load balancer added" />
   </component>
 </project>
